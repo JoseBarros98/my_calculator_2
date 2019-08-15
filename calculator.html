@@ -17,8 +17,11 @@
             var num = document.getElementById("n1"); 
             num.value = Math.pow(num.value, 4); 
             } 
-             </script>
+           
         
+        
+        function square() { var num = document.getElementById("n1"); num.value = Math.pow(num.value, 2); }
+        </script>
 </head>
 
 <body>
@@ -26,6 +29,7 @@
     <p> <button onclick="cube()"> x^3 </button> </p>
     <p> <button onclick="sine()"> sin(x) </button> </p>
     <p> <button onclick="quarter()"> x^4 </button> </p>
+    <p> <button onclick="square()"> x^2 </button> </p>
 </body>
 
 </html>
